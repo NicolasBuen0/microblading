@@ -1,0 +1,90 @@
+.contato li {
+    padding-bottom: 20px;
+
+}
+
+.contato li img {
+    padding-right: 32px;
+}
+
+.redes {
+    max-width: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario-bg {
+    background-color: var(--cor-13);
+}
+
+.formulario {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+form,
+input,
+textarea {
+    font: 400 1.2rem/1.5 "Roboto", sans-serif;
+    border-radius: 5px;
+}
+
+.formulario p {
+    color: #333639;
+    margin-bottom: 20px;
+}
+
+input {
+    border: 2px solid;
+    border-color: transparent;
+    padding: 10px;
+    background-color: var(--cor-13);
+}
+
+label {
+    color: #717171;
+    display: block;
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: none;
+    background-color: var(--cor-13);
+    border: 2px solid;
+}
+
+input,
+textarea {
+    border-color: #717171;
+    color: var(--cor-0);
+    margin-bottom: 30px;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    background-color: var(--cor-12);
+    border-color: transparent;
+    border: 2px solid #717171;
+}
+
+.formulario .botao {
+    border-color: #717171;
+    color: #717171;
+    padding: 12px 32px;
+}
+
+@media (max-width: 800px) {
+    .formulario {
+        padding: 20px;
+    }
+
+    .formulario p {
+        font-size: 0.8rem;
+    }
+
+    .redes {
+        margin-bottom: 30px;
+    }
+}
