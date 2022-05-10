@@ -1,39 +1,30 @@
-/* #servicos.container {} */
-
 .servicos {
     background-color: var(--cor-1);
 }
 
-.sobre {
-    position: relative;
+.servicos .texto-span {
+    margin-top: 0px;
 }
 
-.servicos h2 {
-    padding-bottom: 60px;
-    text-align: center;
+.servicos-texto p {
+    color: #717171;
 }
 
-.servicos ul {
+.slide {
+    overflow: hidden;
+}
+
+.slide-itens {
+    transform: translate3d(-0px, 0px, 0px);
+}
+
+.slide ul {
     display: flex;
     gap: 40px;
-    padding-bottom: 20px;
-    overflow: auto;
 }
 
-.servicos img {
-    border-radius: 4px 4px 0 0;
+.slide img {
     display: block;
 }
 
-.cards-texto {
-    text-align: center;
-    background-color: var(--cor-13);
-    padding: 4px;
-    font: 400 1.5rem/1.5 "Roboto", sans-serif;
-}
-
-@media(max-width:800px) {
-    .servicos h2 {
-        padding-bottom: 30px;
-    }
-}
+@media (max-width: 800px) {}

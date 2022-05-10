@@ -13,8 +13,9 @@
 /* home */
 
 @import url("./home/home.css");
-@import url("./home/servicos.css");
 @import url("./home/sobre.css");
+@import url("./home/servicos.css");
+@import url("./home/contato.css");
 @import url("./home/horario.css");
 @import url("./home/endereco.css");
 @import url("./home/contato.css");
