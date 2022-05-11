@@ -2,6 +2,10 @@
     background-color: var(--cor-1);
 }
 
+.servicos .container {
+    padding-right: 0px;
+}
+
 .servicos .texto-span {
     margin-top: 0px;
 }
@@ -12,21 +16,25 @@
 
 .slide {
     overflow: hidden;
-
-
 }
 
 .slide-itens {
     transform: translate3d(-0px, 0px, 0px);
+    transition: .6s;
 }
 
 .slide ul {
     display: flex;
-    gap: 40px;
+    gap: 20px;
+    padding-bottom: 20px;
 }
 
 .slide img {
     display: block;
+}
+
+.slide .botao {
+    border: none;
 }
 
 @media (max-width: 800px) {}
