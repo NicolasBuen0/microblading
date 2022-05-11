@@ -2,6 +2,10 @@
     background-color: var(--cor-1);
 }
 
+.servicos-texto {
+    align-self: center;
+}
+
 .servicos .container {
     padding-right: 0px;
 }
@@ -30,11 +34,25 @@
 }
 
 .slide img {
+    border-radius: 5px 5px 0px 0px;
+}
+
+.slide span {
+    color: var(--cor-0);
+    text-align: center;
+    background-color: var(--cor-12);
+    padding: 10px 0px;
+    display: block;
+}
+
+.slide img {
     display: block;
 }
 
 .slide .botao {
     border: none;
+    color: var(--cor-0);
+    background-color: #FFC0C8;
 }
 
 @media (max-width: 800px) {}
