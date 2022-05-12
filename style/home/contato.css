@@ -1,6 +1,9 @@
+.contato {
+    background-color: var(--cor-1);
+}
+
 .contato li {
     padding-bottom: 20px;
-
 }
 
 .contato li img {
@@ -13,10 +16,6 @@
     justify-content: space-between;
 }
 
-.formulario-bg {
-    background-color: var(--cor-13);
-}
-
 .formulario {
     padding: 40px;
     display: grid;
@@ -27,7 +26,6 @@ form,
 input,
 textarea {
     font: 400 1.2rem/1.5 "Roboto", sans-serif;
-    border-radius: 5px;
 }
 
 .formulario p {
@@ -36,54 +34,56 @@ textarea {
 }
 
 input {
-    border: 2px solid;
     border-color: transparent;
-    padding: 10px;
-    background-color: var(--cor-13);
+    border-bottom: 2px solid var(--cor-13);
+    padding: 10px 0px;
+    background: transparent;
+}
+
+input::placeholder {
+    color: var(--cor-13);
 }
 
 label {
-    color: #717171;
+    color: var(--cor-13);
     display: block;
     margin-bottom: 10px;
 }
 
 textarea {
     resize: none;
-    background-color: var(--cor-13);
     border: 2px solid;
 }
 
 input,
 textarea {
-    border-color: #717171;
-    color: var(--cor-0);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    background: transparent;
 }
 
 input:focus,
 textarea:focus {
     outline: none;
-    background-color: var(--cor-12);
+    /*     background-color: var(--cor-13);
     border-color: transparent;
-    border: 2px solid #717171;
+    border: 2px solid #717171; */
 }
 
 .formulario .botao {
-    border-color: #717171;
-    color: #717171;
-    padding: 12px 32px;
+    border: none;
 }
 
 @media (max-width: 800px) {
     .formulario {
         padding: 20px;
+        padding-left: 0;
     }
-
     .formulario p {
         font-size: 0.8rem;
     }
-
     .redes {
         margin-bottom: 30px;
     }
