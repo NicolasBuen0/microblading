@@ -72,8 +72,11 @@
         border-bottom: 2px solid rgba(51, 51, 51, 0.226);
     }
     .header-menu li:last-child {
-        border: none;
-        padding-bottom: 12px;
+        border-bottom: none;
+    }
+    .header-menu li:last-child a {
+        color: var(--cor-12);
+        background-color: #FFB5AB;
     }
     .header-menu a {
         width: 100%;
@@ -117,7 +120,7 @@
         transition: .3s;
     }
     nav.ativo .header-menu {
-        height: calc(100vh - 129px);
+        height: max-content;
         visibility: visible;
     }
     nav.ativo #hamburguer {
