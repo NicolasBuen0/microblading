@@ -37,7 +37,7 @@ a {
 }
 
 .botao:hover {
-    background: var(--cor-12);
+    background-color: var(--cor-13);
 }
 
 .botao,

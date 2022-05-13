@@ -67,9 +67,6 @@ textarea {
 input:focus,
 textarea:focus {
     outline: none;
-    /*     background-color: var(--cor-13);
-    border-color: transparent;
-    border: 2px solid #717171; */
 }
 
 .formulario .botao {
