@@ -5,3 +5,9 @@ menuHamburguer();
 /* Import Scroll suave */
 import scrollSuave from './modules/scrollSuave.js';
 scrollSuave();
+
+
+/* Animação */
+if (window.SimpleAnime) {
+    new SimpleAnime();
+}

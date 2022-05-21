@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./css/style.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="icon" href="icons/favicon.svg">
     <title>Microblading - Design de Sobrancelhas</title>
 </head>
+<script>
+    document.documentElement.classList.add("js");
+</script>
 
 <body>
     <header class="header-bg">
@@ -34,15 +37,15 @@
     <main class="main-bg" id="main">
         <div class="main pb-pt grid-2-cl container">
             <div class="texto">
-                <span class="font-1-xl texto-span">VALORIZE</span>
-                <h2 class="font-1-xxl cor-12">SEU OLHAR</h2>
-                <p class="font-2-l">
+                <span class="font-1-xl texto-span fadeInLeft" data-anime="200">VALORIZE</span>
+                <h2 class="font-1-xxl cor-12 fadeInLeft" data-anime="200">SEU OLHAR</h2>
+                <p class="font-2-l fadeInLeft" data-anime="400">
                     Invista em suas sobrancelhas. Agende já o seu horário e renove a sua autoestima.</p>
-                <a href="https://wa.me/+5551989582143?text=Ol%C3%A1,%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." class="botao">AGENDE
+                <a href="https://wa.me/+5551989582143?text=Ol%C3%A1,%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." class="botao fadeInLeft" data-anime="600">AGENDE
                     SEU HORÁRIO</a>
             </div>
-            <div class="main-img">
-                <img src="img/inicio.jpg" alt="Mulher com sobrancelhas feitas.">
+            <div class="main-img ">
+                <img src="img/inicio.jpg " alt="Mulher com sobrancelhas feitas." class="fadeInRight" data-anime="800">
             </div>
         </div>
     </main>
@@ -158,7 +161,7 @@
     </section>
     <footer class="footer-bg">
         <div class="footer container grid-3-cl">
-            <a href="./">
+            <a href="./" class="logo">
                 <span class="font-1-xl cor-0">MICROBLADING<br></span>
             </a>
             <div class="footer-contato">
@@ -186,6 +189,7 @@
             <p class="copy">Microblading © alguns direitos reservados.</p>
         </div>
     </footer>
+    <script src="./js/plugins/simple-anime.js"></script>
     <script type="module" src="js/script.js"></script>
 </body>
 
