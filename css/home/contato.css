@@ -2,8 +2,13 @@
     background-color: var(--cor-1);
 }
 
+.contato h2,
 .contato li {
     padding-bottom: 20px;
+}
+
+.itens a {
+    display: flex;
 }
 
 .contato li img {
