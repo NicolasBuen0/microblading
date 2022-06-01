@@ -16,7 +16,7 @@
     padding-bottom: 20px;
 }
 
-.introducao-conteudo P {
+.introducao-conteudo p {
     padding-bottom: 10px;
 }
 
@@ -28,6 +28,7 @@
     .introducao {
         align-items: center;
     }
+
     .introducao-conteudo {
         align-items: flex-start;
     }
