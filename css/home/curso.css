@@ -33,24 +33,23 @@
     color: #717171;
     margin: 0 20px;
     padding-bottom: 10px;
-
 }
 
 .curso-itens img {
     padding-bottom: 10px;
     width: 100%;
     border-radius: 5px 5px 0px 0px;
+    cursor: pointer;
 }
 
 .curso-itens li {
-    cursor: pointer;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     background-color: var(--cor-0);
 }
 
-a.botao {
+.curso-itens a.botao {
     padding: 12px 16px;
     margin: auto 20px 10px 20px;
 }
